@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Étape 1 - Récupérer le code source
-      uses: actions/checkout@v4
+        uses: actions/checkout@v4
     - name: Étape 2 - Installer Python 3.10
-      uses: actions/setup-python@v5
+        uses: actions/setup-python@v5
       with:
         python-version: '3.10'
     - name: Étape 3 - Installer les dépendances
